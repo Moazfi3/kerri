@@ -1,0 +1,72 @@
+.home-Fi{
+    width: 100%;
+  height: 100%;
+background-image: url(header-bg.jpg);
+background-size: 100% 100%;
+height: 100vh;
+  background-size: cover;
+position: relative;
+}
+.navbar{
+    position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.navbar2{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Content{
+    display: flex !important;
+    flex-basis: auto;
+}
+.ul{
+    flex-direction: row;
+}
+.nav-item{
+    display: inline-block;
+    list-style: none;
+}
+.a{
+    text-decoration: none;
+padding: 15px 15px;
+display: inline-block;
+color: white;
+font-size: 20px;
+}
+.imgnav{
+    width: 100%;
+    width: 20%;
+float: left;
+}
+.testo{
+    text-align: center;
+    position: absolute;
+    top: 220px;
+    left: 30%;
+}
+h2{
+    font-size: 2rem;
+    color: white;
+}
+h1{
+    color: white;
+    font-size: 52px;
+}
+p{
+    color: rgba(243, 225, 225, 0.8);
+}
+.bu{
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 17px;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  margin: 20px 5px;
+}
